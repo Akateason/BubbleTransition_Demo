@@ -34,7 +34,7 @@
     
     [UIView animateWithDuration:.5
                      animations:^{
-                         self.button.transform = CGAffineTransformMakeRotation(- M_PI_4 * 3.) ;
+                         self.button.transform = CGAffineTransformMakeRotation( M_PI_4 * 3. ) ;
                      }] ;
 }
 

@@ -29,8 +29,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.button.layer.cornerRadius = self.button.frame.size.width/2.0f;
-
+    self.button.layer.cornerRadius = self.button.frame.size.width / 2.0f ;
+    
 }
 
 - (void)didReceiveMemoryWarning {
